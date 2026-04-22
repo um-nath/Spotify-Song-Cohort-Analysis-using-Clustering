@@ -131,8 +131,11 @@ Applied unsupervised learning techniques to group songs:
 │   └── missing_values.py
 │   └── outlayers.py
 │   └── requirments.txt
-├── outputs/
-│   └── visualizations (.png)
+├── Visualizations/
+│   └──  Figure_1.png
+│   └──  Figure_2.png
+│   └──  Figure_3.png
+│   └── .... 
 ├── README.md
 ```
 ---
