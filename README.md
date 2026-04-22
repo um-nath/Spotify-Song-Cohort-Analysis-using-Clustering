@@ -43,7 +43,7 @@ The dataset is described in data_dictionary.xlsx
 
 ### 2. 📊 Exploratory Data Analysis (EDA)
 
-* Univariate analysis (distribution of features)
+* **Univariate analysis (distribution of features)**
 <img width="800" height="400" alt="Figure_2 5" src="https://github.com/user-attachments/assets/1f13d639-67ad-4e47-a61b-f074511a710d" />
 <img width="800" height="400" alt="Figure_2 4" src="https://github.com/user-attachments/assets/76763fba-6c71-4bc1-b6ca-90e246a07cad" />
 <img width="800" height="400" alt="Figure_2 3" src="https://github.com/user-attachments/assets/efda10bf-d6bf-4faf-87c5-981e26beae9b" />
@@ -51,14 +51,14 @@ The dataset is described in data_dictionary.xlsx
 <img width="800" height="400" alt="Figure_2 1" src="https://github.com/user-attachments/assets/275aab5b-c617-4ad9-928d-1eb2e26c66fd" />
 <img width="1000" height="600" alt="Figure_1" src="https://github.com/user-attachments/assets/2a9548ce-dc9b-4e22-9474-ad0b49c96b00" />
 
-* Bivariate/multivariate analysis (correlation heatmaps)
+* **Bivariate/multivariate analysis (correlation heatmaps)**
 
 <img width="1440" height="749" alt="Figure_3" src="https://github.com/user-attachments/assets/23441e57-d943-4f40-b8f7-94fa996bc9fa" />
 
 <img width="1000" height="700" alt="Figure_6" src="https://github.com/user-attachments/assets/4dc85960-1ee2-40b3-8779-67e766e72d9f" />
 
   
-* Feature relationships and trends
+* **Feature relationships and trends**
 
 <img width="1200" height="600" alt="Figure_7" src="https://github.com/user-attachments/assets/7d709398-7241-4022-a66a-84dabc8b1811" />
 
@@ -87,16 +87,16 @@ Applied unsupervised learning techniques to group songs:
 
 * Determined optimal number of clusters using:
 
-  * Elbow Method
+  * **Elbow Method**
  
 <img width="800" height="400" alt="Figure_10" src="https://github.com/user-attachments/assets/2f114bc5-4dc1-43c6-8672-fb8ff0292b7b" />
 
-  * Silhouette Score
-  * 
+  * **Silhouette Score**
+    
 <img width="800" height="400" alt="Figure_11" src="https://github.com/user-attachments/assets/139db78b-18b7-47db-b695-31918c370fa2" />
 
 
-* Define each cluster based on the features
+* **Define each cluster based on the features**
 
 <img width="700" height="400" alt="Figure_13 8" src="https://github.com/user-attachments/assets/21a1e964-5f51-484d-bafc-057c601f643f" />
 <img width="700" height="400" alt="Figure_13 7" src="https://github.com/user-attachments/assets/12c0fdd9-61a5-4afa-8933-05576a46375f" />
@@ -109,7 +109,7 @@ Applied unsupervised learning techniques to group songs:
 
 
 
-* Visualized clusters in reduced dimensions (PCA plot)
+* **Visualized clusters in reduced dimensions (PCA plot)**
 
 <img width="800" height="500" alt="Figure_14" src="https://github.com/user-attachments/assets/840fd18e-c2a0-40ef-918d-a0e61e7accc5" />
 
