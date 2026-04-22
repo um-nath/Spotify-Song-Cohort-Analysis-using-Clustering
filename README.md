@@ -82,32 +82,37 @@ Applied unsupervised learning techniques to group songs:
 #### Algorithms Used:
 
 * **K-Means Clustering**
-* Hierarchical Clustering (optional)
-* DBSCAN (optional)
 
 #### Steps:
 
 * Determined optimal number of clusters using:
 
   * Elbow Method
+ 
+<img width="800" height="400" alt="Figure_10" src="https://github.com/user-attachments/assets/2f114bc5-4dc1-43c6-8672-fb8ff0292b7b" />
+
   * Silhouette Score
-* Trained clustering models
-* Visualized clusters in reduced dimensions (PCA/2D plots)
+  * 
+<img width="800" height="400" alt="Figure_11" src="https://github.com/user-attachments/assets/139db78b-18b7-47db-b695-31918c370fa2" />
 
----
 
-## 📈 Results & Insights
+* Define each cluster based on the features
 
-* Identified distinct **song cohorts** based on musical characteristics
-* Observed patterns such as:
+<img width="700" height="400" alt="Figure_13 8" src="https://github.com/user-attachments/assets/21a1e964-5f51-484d-bafc-057c601f643f" />
+<img width="700" height="400" alt="Figure_13 7" src="https://github.com/user-attachments/assets/12c0fdd9-61a5-4afa-8933-05576a46375f" />
+<img width="700" height="400" alt="Figure_13 6" src="https://github.com/user-attachments/assets/ac7e8250-fc8c-43bc-bdaa-79d605ac8953" />
+<img width="700" height="400" alt="Figure_13 5" src="https://github.com/user-attachments/assets/3d13b3d2-7ef8-424c-830a-31b451e34cf4" />
+<img width="700" height="400" alt="Figure_13 4" src="https://github.com/user-attachments/assets/287627f0-95be-44c5-bca8-d4f228cc67ea" />
+<img width="700" height="400" alt="Figure_13 3" src="https://github.com/user-attachments/assets/2e076d24-2a8c-4623-8aff-7667b1b3b388" />
+<img width="700" height="400" alt="Figure_13 2" src="https://github.com/user-attachments/assets/a37b5e66-56c6-474f-85ce-96915d744147" />
+<img width="700" height="400" alt="Figure_13 1" src="https://github.com/user-attachments/assets/3eecda17-e9f7-45cf-a285-f09d09549d46" />
 
-  * High-energy vs low-energy clusters
-  * Acoustic vs instrumental groupings
-* Insights can be used to:
 
-  * Improve recommendation systems
-  * Enhance playlist generation
-  * Understand listener preferences
+
+* Visualized clusters in reduced dimensions (PCA plot)
+
+<img width="800" height="500" alt="Figure_14" src="https://github.com/user-attachments/assets/840fd18e-c2a0-40ef-918d-a0e61e7accc5" />
+
 
 ---
 
