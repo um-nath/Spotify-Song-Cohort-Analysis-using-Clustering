@@ -62,14 +62,16 @@ The dataset is described in data_dictionary.xlsx
 
 <img width="1200" height="600" alt="Figure_7" src="https://github.com/user-attachments/assets/7d709398-7241-4022-a66a-84dabc8b1811" />
 
+<img width="1000" height="600" alt="Figure_8" src="https://github.com/user-attachments/assets/d677b2a3-4ca8-40fe-aac9-2fb72d01a732" />
+
+
 ---
 
 ### 3. ⚙️ Feature Engineering
 
-* Feature scaling (Standardization/Normalization)
+* Feature scaling (Normalization)
 * Transformation of skewed variables
-* Dimensionality reduction (PCA, if applicable)
-* Creation of derived features (if needed)
+* Dimensionality reduction (PCA)
 
 ---
 
@@ -122,50 +124,17 @@ Applied unsupervised learning techniques to group songs:
 ## 📁 Project Structure
 
 ```
-├── data/
-│   └── spotify_dataset.csv
-├── notebooks/
-│   └── analysis.ipynb
-├── src/
-│   └── clustering.py
+├── rolling_stones_spotify.csv
+├── data_dictionary.xlsx
+├── VSCode_Spotify project/
+│   └── main.py
+│   └── missing_values.py
+│   └── outlayers.py
+│   └── requirments.txt
 ├── outputs/
-│   └── visualizations/
+│   └── visualizations (.png)
 ├── README.md
 ```
-
----
-
-## 🚀 How to Run
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/spotify-clustering.git
-   ```
-2. Navigate to the project directory:
-
-   ```bash
-   cd spotify-clustering
-   ```
-3. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the notebook or script:
-
-   ```bash
-   jupyter notebook
-   ```
-
----
-
-## 🔮 Future Improvements
-
-* Incorporate user listening history for hybrid recommendations
-* Use deep learning-based embeddings (e.g., autoencoders)
-* Deploy clustering results into a recommendation API
-
 ---
 
 ## 🤝 Contributing
@@ -174,15 +143,8 @@ Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
 ## ✨ Author
 
-Your Name
-Data Science Enthusiast
+**Ujjwal Manikya Nath**
+Data Science | Machine Learning | Computer Vision
 
-If you want, I can also tailor this README for a specific dataset (like Spotify Kaggle dataset) or include sample visualizations and results.
